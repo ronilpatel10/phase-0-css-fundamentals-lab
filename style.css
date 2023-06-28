@@ -1,5 +1,65 @@
 body {
-  width: 100%;
+  width: 50%;
   height: 100%;
   margin: 0;
+  text-align: center;
 }
+ h1 {
+   text-align: center;
+}
+img {
+   text-align: center;
+}
+<style>
+  .navbar {
+    text-align: center;
+  }
+  
+  .navbar a {
+    padding: 0 10px;
+    background-color: blueviolet;
+  }
+</style>
+
+<style>
+  .image-caption {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  <style>
+  #featured-property p {
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+</style>
+
+<div id="featured-property">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <p>Nulla nec purus sed ipsum iaculis blandit.</p>
+  <p>Donec sit amet lectus eu nulla sodales fringilla.</p>
+</div>
+Copy code
+<style>
+  #details {
+    overflow: auto; 
+  }
+  
+  #details div {
+    float: left;
+  }
+</style>
+
+<style>  
+  h3 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  h3 {
+    background-color: red;
+    text-align: center;
+    width: 25%;
+  }
+</style>
